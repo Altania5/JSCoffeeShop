@@ -2,9 +2,9 @@
 
 ## Description
 
-Welcome to the Coffee Shop App! This application aims to provide a seamless experience for customers to browse our menu, place orders, and for staff to manage inventory and customer requests. (***Customize this description to better fit your app's specific goals.***)
+Welcome to the Coffee Shop App! This application aims to provide a seamless experience for customers to browse our menu, place orders, and for staff to manage inventory and customer requests.
 
-This project is built using Node.js (***assumption, please confirm or change***) and is designed for deployment on Heroku.
+This project is built using Node.js and is designed for deployment on Heroku.
 
 ## Table of Contents
 
@@ -20,25 +20,21 @@ This project is built using Node.js (***assumption, please confirm or change***)
 
 ## Features
 
-*(List the key features of your coffee shop app. Here are some common examples, feel free to add/remove/edit):*
-
 * User registration and authentication
 * Browseable coffee and food menu
 * Online ordering system
 * Order history for users
 * Admin panel for menu management
 * Admin panel for order fulfillment
-* (Add more specific features like: loyalty programs, table reservations, etc.)
 
 ## Technologies Used
 
-* **Backend:** Node.js, Express.js (***Example: specify if you're using Express or another framework***)
-* **Frontend:** (***Example: HTML, CSS, JavaScript, React, Vue, Angular - specify what you plan to use or if it's API-only***)
-* **Database:** (***Example: PostgreSQL, MongoDB, SQLite - specify your database***)
+* **Backend:** Node.js, Express.js
+* **Frontend:** CSS, JavaScript, React
+* **Database:** MongoDB
 * **Version Control:** Git
 * **Deployment Platform:** Heroku
-* **Package Manager:** npm or yarn (***Specify which one***)
-* **(Other libraries/tools):** (***Example: Stripe for payments, Socket.io for real-time updates, etc.***)
+* **Package Manager:** npm 
 
 ## Prerequisites
 
@@ -78,7 +74,6 @@ Before you begin, ensure you have the following installed on your local machine:
     *Ensure `.env` is listed in your `.gitignore` file!*
 
 4.  **Database Setup (if applicable):**
-    * (***Provide instructions for setting up your local database, e.g., creating the database, running migrations, seeding initial data.***)
     * Example for PostgreSQL:
         ```bash
         # psql -U your_username
@@ -157,7 +152,7 @@ The application should now be running on `http://localhost:PORT` (e.g., `http://
     }
     ```
 
-6.  **Ensure your `Procfile` is correct (optional but good practice):**
+6.  **Ensure your `Procfile` is correct:**
     While Heroku can often infer the `start` script, explicitly defining a `Procfile` is more robust. Create a file named `Procfile` (no extension) in the root directory:
     ```Procfile
     web: node server.js
@@ -171,7 +166,7 @@ The application should now be running on `http://localhost:PORT` (e.g., `http://
     git push heroku main # or master, depending on your branch name
     ```
 
-8.  **Run database migrations/seeds on Heroku (if applicable):**
+8.  **Run database migrations/seeds on Heroku:**
     ```bash
     heroku run npm run migrate
     heroku run npm run seed
@@ -188,11 +183,9 @@ The application should now be running on `http://localhost:PORT` (e.g., `http://
     heroku logs --tail
     ```
 
-## API Endpoints (Optional)
+## API Endpoints
 
-*(If your application includes a RESTful API, document the main endpoints here. This is especially useful if your front-end is separate or if you want others to interact with your API.)*
-
-**Example:**
+**Example:*
 
 * **Users**
     * `POST /api/users/register` - Register a new user
@@ -222,11 +215,9 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information. (***Choose a license that suits your project. If you don't have a LICENSE.txt, you can create one or remove this section. MIT is a common permissive license.***)
+Distributed under the MIT License. See `LICENSE.txt` for more information
 
 ---
-
-**Remember to replace placeholder text like `<your-repository-url>`, `<repository-name>`, `<your_local_database_connection_string>`, `server.js` (if different), Node.js version, etc., with your actual project details.**
 
 # 1. (Save files in editor)
 # 2. Check status (optional)
